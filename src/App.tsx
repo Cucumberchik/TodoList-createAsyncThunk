@@ -7,11 +7,6 @@ import { ChangeDialog } from './components/Change_Dialog';
 import { useAppDispatch, useAppSelecgor } from './redux/store';
 import { getReq } from './redux/features/TodoSlice';
 
-interface AppList {
-  name: string,
-  lastname: string,
-  _id:number 
-}
 
 type TypeState = {status: string, _id: number}
 
